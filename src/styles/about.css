@@ -1,0 +1,26 @@
+/* Container styling */
+.about-container {
+    padding-top: 8rem; /* equivalent to Tailwind 'pt-32' */
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  
+  /* Heading styling */
+  .about-heading {
+    font-size: 2.25rem; /* equivalent to Tailwind 'text-4xl' */
+    font-weight: bold;
+  }
+  
+  @media (min-width: 768px) {
+    .about-heading {
+      font-size: 3rem; /* equivalent to Tailwind 'md:text-5xl' */
+    }
+  }
+  
+  /* Text styling */
+  .about-text {
+    color: #6b7280; /* equivalent to Tailwind 'text-gray-500' */
+    padding-top: 1rem; /* equivalent to Tailwind 'pt-4' */
+    line-height: 1.75;
+  }
+  

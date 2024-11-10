@@ -1,0 +1,10 @@
+/* Footer styling */
+.footer {
+    margin-top: 4rem; /* Equivalent to Tailwind 'mt-16' */
+    padding: 1.5rem 0; /* Equivalent to Tailwind 'py-6' */
+    text-align: center;
+    background-color: green; /* Equivalent to Tailwind 'bg-accent' */
+    color: #000000; /* Equivalent to Tailwind 'text-black' */
+    font-size: 1rem;
+  }
+  

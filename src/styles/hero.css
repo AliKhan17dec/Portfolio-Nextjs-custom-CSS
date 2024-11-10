@@ -1,0 +1,55 @@
+/* Hero Section */
+.hero-section {
+    min-height: 100vh;
+    background-image: url('/main.png');
+    background-repeat: no-repeat;
+    background-size: 35%; /* Equivalent to Tailwind 'bg-cover' with custom scaling */
+    background-position: left 120px top 100px;
+  }
+  
+  /* Container for Navbar and Text */
+  .hero-container {
+    display: grid;
+    height: calc(100vh - 150px);
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 1024px) { /* Equivalent to Tailwind 'lg' breakpoint */
+    .hero-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  /* Hidden column on large screens */
+  .hero-hidden {
+    display: none;
+  }
+  
+  @media (min-width: 1024px) { /* Show on large screens */
+    .hero-hidden {
+      display: block;
+    }
+  }
+  
+  /* Hero Text */
+  .hero-text {
+    font-size: 5rem; /* Equivalent to Tailwind 'text-[80px]' */
+    font-weight: bold;
+    line-height: 1.1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  @media (min-width: 640px) { /* Equivalent to Tailwind 'sm' breakpoint */
+    .hero-text {
+      font-size: 6.25rem; /* Equivalent to Tailwind 'text-[100px]' */
+    }
+  }
+  
+  /* Accent Text */
+  .hero-accent {
+    color: green; /* Equivalent to Tailwind 'text-accent' */
+  }
+  

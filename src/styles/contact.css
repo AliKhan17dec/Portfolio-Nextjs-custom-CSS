@@ -1,0 +1,79 @@
+/* Container */
+.contact-container {
+    padding-top: 8rem; /* Equivalent to Tailwind 'pt-32' */
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  
+  /* Grid layout */
+  .contact-grid {
+    display: grid;
+    gap: 2.5rem;
+  }
+  
+  @media (min-width: 768px) { /* Equivalent to Tailwind 'md' breakpoint */
+    .contact-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  /* Contact Info */
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .contact-title {
+    font-size: 3rem; /* Equivalent to Tailwind 'text-5xl' */
+  }
+  
+  .contact-text {
+    color: #4b5563; /* Equivalent to Tailwind 'text-gray-600' */
+    font-size: 1.125rem;
+    padding-top: 0.5rem; /* Equivalent to Tailwind 'pt-2' */
+  }
+  
+  .contact-icons {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+  }
+  
+  /* Form */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .input-field {
+    height: 2.5rem; /* Equivalent to Tailwind 'h-[40px]' */
+    background-color: transparent;
+    border: 1px solid #facc15; /* Equivalent to Tailwind 'border-accent' */
+    padding: 0.5rem;
+  }
+  
+  .textarea-field {
+    background-color: transparent;
+    border: 1px solid #facc15; /* Equivalent to Tailwind 'border-accent' */
+    padding: 0.5rem;
+  }
+  
+  .send-button {
+    background-color: green; /* Equivalent to Tailwind 'bg-accent' */
+    padding: 0.5rem 1.5rem;
+    transition: background-color 0.3s;
+  }
+  
+  .send-button:hover {
+    background-color: transparent;
+    border: 1px solid #facc15;
+  }
+  

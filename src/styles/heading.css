@@ -1,0 +1,14 @@
+/* Centered heading container */
+.heading-container {
+    text-align: center;
+    font-size: 2.25rem; /* Equivalent to Tailwind 'text-4xl' */
+    padding-bottom: 2rem; /* Equivalent to Tailwind 'pb-8' */
+  }
+  
+  /* Underlined title */
+  .heading-title {
+    display: inline-block;
+    padding-bottom: 0.5rem; /* Equivalent to Tailwind 'pb-2' */
+    border-bottom: 4px solid #000; /* Set border color to your preference */
+  }
+  
